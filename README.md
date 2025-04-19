@@ -1,4 +1,4 @@
-LLD implementation for a simple ticket booking system using core java (just a practice for mimimcing IRCTC/MMT like applications)
+LLD implementation for a simple ticket booking system using java (just a practice for mimimcing IRCTC/MMT like applications)
 
 ### Clone the Repository  
 ```sh
