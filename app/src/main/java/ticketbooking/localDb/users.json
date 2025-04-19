@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Aniket Pathak",
+    "userId": "user1001",
+    "password": "pass1234",
+    "hashPassword": "hashed_pass1234",
+    "ticketsBooked": [
+      {
+        "ticketId": "TCKT9087",
+        "source": "Mumbai",
+        "destination": "Pune",
+        "dateOfTravel": "2025-05-03",
+        "train": {
+          "trainId": "EXP1201",
+          "trainNo": "12015",
+          "stations": ["Mumbai", "Thane", "Kalyan", "Lonavala", "Pune"],
+          "stationTime": {
+            "Mumbai": "06:00",
+            "Thane": "06:25",
+            "Kalyan": "06:45",
+            "Lonavala": "07:50",
+            "Pune": "09:00"
+          },
+          "seats": [
+            [0, 1, 0, 0, 1],
+            [1, 1, 0, 1, 0],
+            [0, 0, 0, 0, 1],
+            [1, 1, 1, 0, 0],
+            [0, 0, 1, 1, 0],
+            [0, 1, 0, 0, 1],
+            [1, 0, 0, 1, 1],
+            [0, 0, 0, 0, 0],
+            [1, 1, 1, 1, 0],
+            [0, 1, 1, 0, 0]
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "Sara Fernandes",
+    "userId": "user1002",
+    "password": "pass5678",
+    "hashPassword": "hashed_pass5678",
+    "ticketsBooked": [
+      {
+        "ticketId": "TCKT9071",
+        "source": "Delhi",
+        "destination": "Agra",
+        "dateOfTravel": "2025-05-04",
+        "train": {
+          "trainId": "SHAT101",
+          "trainNo": "12050",
+          "stations": ["Delhi", "Faridabad", "Mathura", "Agra"],
+          "stationTime": {
+            "Delhi": "07:10",
+            "Faridabad": "07:40",
+            "Mathura": "08:30",
+            "Agra": "09:15"
+          },
+          "seats": [
+            [1, 1, 0, 1, 1],
+            [1, 0, 1, 1, 0],
+            [0, 0, 1, 1, 1],
+            [0, 0, 0, 0, 1],
+            [1, 1, 1, 0, 0],
+            [1, 0, 0, 0, 1],
+            [0, 0, 1, 1, 0],
+            [0, 1, 0, 1, 0],
+            [1, 0, 0, 1, 1],
+            [1, 1, 0, 0, 1]
+          ]
+        }
+      }
+    ]
+  }
+]
