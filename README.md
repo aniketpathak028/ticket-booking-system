@@ -1,6 +1,4 @@
----
 
-# ticket booking system 
 
 LLD implementation for a simple ticket booking system using core java (just a practice for mimimcing IRCTC/MMT like applications)
 
